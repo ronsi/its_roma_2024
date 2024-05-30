@@ -9,7 +9,8 @@ $ netstat -natp | grep LISTEN
 tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      -                   
 tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
 tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
-tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      - 
+
 tcp6       0      0 :::8080                 :::*                    LISTEN      -               
 tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
 
